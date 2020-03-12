@@ -1,0 +1,16 @@
+{
+      "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+      "env": {
+            "PYTHONPATH": "S:/pipe/api;S:/pipe/libs/python;S:/libs/python;D:/pipe/libs/python",
+            "PIPE_DEBUG": "1",
+            },
+      "shell_cmd": "C:/Python27/python.exe -u \"${file}\"",
+      "selector": "source.python",
+      "variants":
+      [
+            {
+                  "name": "Syntax Check",
+                  "shell_cmd": "C:/Python27/python -m py_compile \"${file}\"",
+            }
+      ]
+}
