@@ -4,7 +4,7 @@ import sublime_plugin
 #########################################################################
 # Place this file in the {user_appdata}/Sublime Text 3\Packages\User directory
 #########################################################################
-# modifyied the example on sublime text 3 website
+# modified the example on sublime text 3 website
 # there were lots of fixes that needed to take place as the example did not function correctly 
 # to setup key bindings it would look something like this
 #########################################################################
